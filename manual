@@ -1,0 +1,18 @@
+1.- Para poder instalar Git en nuestro Linux , primero debemos de actualizar nuestra apt-get entonces escribimos el comando "sudo apt-get update". Sera actualizado, cuando ya este asi escribimos el comando "sudo apt-get install git"
+
+2.- Ahora ingresa a github.com para crear una cuenta si es que no tienes una. 
+
+3.- Una vez creada la cuenta, dentro de tu perfil, en el boton son simbolo "+", escogemos la opcion "new repository", lo nombramos y nos regresamos a la shell.
+
+4.- Ya estando en la shell, primero debemos de crear un directorio . Una vez creado tenemos que crear un archivo "README.dm" de la siguiente forma:
+	- echo "# [nombre de tu repositorio]" >> README.dm.
+
+5.- Una vez creado utilizamos el comando "git init", que inicializara git.
+
+6.- Después usamos el comando "git add README.dm".
+
+7.- Una vez agregado, tenemos que agregar un commit, explicando la modificacion realizada "git commit -m "commit(explica que hiciste)""
+
+8.- Despues usamos "remote git add origin [Link de tu repositorio]".
+
+9.- Y por ultimo usamos el comando "git push -u origin master" para guardar los cambios. Te pedira tu nombre de usuario y tu contraseña. Y listo ya creaste tu primer repositorio a partir de la shell.
